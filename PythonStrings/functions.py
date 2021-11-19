@@ -10,3 +10,11 @@ def encodestr(string):
 def decodestr(string):
     orstring = string.decode("utf-16")
     return orstring
+
+def Capatilize(string):
+    string = string.capitalize()
+    return string
+
+def Cap(string):
+    string = len(string)
+    return len(string)
